@@ -8,7 +8,7 @@ class Program
     {
         Console.Write("Введите температуру: ");
         double t = Convert.ToDouble(Console.ReadLine());
-
+//задание 1
         if (t >= 20)
         {
             Console.WriteLine("Кондиционер выключен");
@@ -17,6 +17,7 @@ class Program
         {
             Console.WriteLine("Кондиционер включен");
         }
+//задание 3
         Console.Write("Введите возраст собаки (в годах): ");
         string input = Console.ReadLine();
 
@@ -52,9 +53,9 @@ class Program
         }
 
         Console.WriteLine($"Возраст собаки в человеческих годах: {humanAge}");
+//задание 4
 
-
-        /* Console.Write("Введите число: ");
+         Console.Write("Введите число: ");
          string input = Console.ReadLine();
 
 
@@ -96,7 +97,8 @@ class Program
              }
              if (!divisibleBy3)
              {
-                 Console.WriteLine("Причина: сумма цифр не делится на 3");*/
+                 Console.WriteLine("Причина: сумма цифр не делится на 3");
+             }
         //задание 5
         Console.Write("Введите пароль: ");
         string password = Console.ReadLine();
@@ -239,3 +241,4 @@ class Program
 
 
         
+
