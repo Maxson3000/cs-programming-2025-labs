@@ -5,10 +5,10 @@ using System.Linq;
 class Program
 {
     static void Main()
-    {
+    {    //задание 1
         Console.Write("Введите температуру: ");
         double t = Convert.ToDouble(Console.ReadLine());
-//задание 1
+
         if (t >= 20)
         {
             Console.WriteLine("Кондиционер выключен");
@@ -241,4 +241,5 @@ class Program
 
 
         
+
 
